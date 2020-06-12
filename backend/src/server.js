@@ -5,7 +5,7 @@ const server = express();
 
 
 /** MONGOOSE CONECTION */
-mongoose.connect('mongodb+srv://analistacode:b9118rss@analistacode-oh3nu.mongodb.net/financial?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://analistacode:******@analistacode-oh3nu.mongodb.net/financial?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
